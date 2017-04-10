@@ -4,6 +4,7 @@ app.get('/', function(req, res){
   res.send('hello world!!!');
 });
 
+// adding comment to the servers
 var port = 3000;
 app.listen(port, function(){
   console.log(`server is listening in port ${port}`);
